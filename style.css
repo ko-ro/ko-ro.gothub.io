@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.BodyInfo{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.NavBar{
+    width: 600px;
+    height: 7vh; 
+    border-bottom: 3px solid black;
+}
+.NavBar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+
+}
+.NavBar a{
+    font-size: 1.2em;
+    color: #191919;
+    text-decoration: none; 
+}
+
+.Main{
+    width: 600px;
+    height: 93vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.MainImg{
+    width: 200px;
+    height: 93vh;
+}
+.MainImg img{
+    width: 200px;
+}
+.MainText{
+    width: 400px;
+    height: 93vh;
+}
