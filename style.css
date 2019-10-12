@@ -21,7 +21,7 @@
     flex-direction: row;
     justify-content: space-around;
     list-style-type: none;
-
+    margin-top: 3.5vh;;
 }
 .NavBar a{
     font-size: 1.2em;
@@ -31,19 +31,37 @@
 
 .Main{
     width: 600px;
-    height: 93vh;
+    height: 89.5vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 .MainImg{
     width: 200px;
-    height: 93vh;
+    height: 89.5vh;
 }
 .MainImg img{
     width: 200px;
 }
+.MainImg p{
+    font-weight: bold;
+    text-align: center;
+}
 .MainText{
     width: 400px;
-    height: 93vh;
+    height: 89.5vh;
+}
+.MainText p {
+    padding: 15px 0px;
+    border-bottom: 0.2px solid black;
+}
+.MainText span{
+    font-style: italic;
+}
+.Footer{
+    padding: 10px;
+    width: 600px;
+    border-top: 3px solid black;;
+    text-align: center;
+    font-weight: bold;
 }
